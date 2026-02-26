@@ -1,0 +1,574 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins";
+}
+
+body{
+    background-color:rgba(255, 192, 203, 0.039);
+}
+
+.demo123{
+            color: green;
+        }
+
+/* Header section */
+header{
+    background-color:#FD5490;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 0 0 10px 10px;
+    position: relative; /* For hamburger menu positioning */
+}
+
+.School-title{
+    font-family: "Alfa Slab One", serif;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Averia Gruesa Libre";
+    font-size: 18px;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    scale: 1.1;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #FD5490;
+}
+
+/* Banner */
+.School-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.School-banner img{
+    width: 95%;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.School-banner img:hover{
+    scale: 1.005;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+}
+
+/* Hamburger Menu */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+/* About */
+.About-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.sub-heading{
+    font-family: "Changa One", sans-serif;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 26px;
+    color: #FD5490;
+    padding: 5px 7px;
+    margin-bottom: 20px;
+}
+
+.sub-heading:hover{
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+    cursor: pointer;
+    background-color: #FD5490;
+    color: aliceblue;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.left-box{
+    width: 20%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0px 0px 20px;
+}
+.left-box:hover{
+    scale: 1.005;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+}
+
+
+.right-box{
+    width: 60%;
+    background: #FD5490;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.right-box p{
+    color: aliceblue;
+    font-family: "Poppins";
+}
+
+.right-box:hover{
+    scale: 1.005;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+}
+
+.container{
+    background-color: #FD5490;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.container:hover{
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+}
+
+.container h3{
+    background-color: aliceblue;
+    color:#FD5490;
+    width: fit-content;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    
+}
+
+.container p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.container h3:hover{
+box-shadow: 0px 0px 5px aliceblue;
+}
+
+.features{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 2%;
+}
+
+.features .box{
+    width:300px;
+    height: 300px;
+    background-color: #FD5490;
+    border-radius: 10px;
+    border: 5px solid aliceblue;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left:5%;
+    padding-top: 2%;
+}
+.content h4{
+    margin-bottom: 2%;
+    font-size: 24px;
+    font-weight: 100;
+      font-family: "Alfa Slab One", serif;
+    color: aliceblue;
+}
+.content ul li{
+    margin-top: 2%;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.container .images{
+    overflow: hidden;
+}
+
+.images img{
+    width: 100%;
+}
+
+.our-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.Our-fea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Our-fea h2{
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FD5490;
+    display: inline;
+     font-family: "Alfa Slab One", serif;
+     margin-bottom: 20px;
+     font-weight: 100;
+}
+
+.Our-fea h2:hover{
+    background-color: #FD5490;
+    color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+    cursor: pointer;
+}
+
+.our-labs-heading {
+    margin-top: 30px;
+}
+
+.our-features .Teachers{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap:10px;
+    width: fit-content;
+    padding:20px 20px;
+    background-color:#FD5490;
+    /* margin-left: 5%; */
+    border-radius: 20px;
+}
+
+.our-features .Teachers:hover{
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+    cursor: pointer;
+}
+
+.our-features .Teachers img{
+    width:350px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: black;
+    border: 5px solid aliceblue;
+}   
+
+.our-features .Teachers h3{
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* School Tour */
+
+.School-Tour{
+    /* background-color:greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 3%;
+}
+
+.School-Tour .sub-heading i{
+    margin-right: 5px;
+}
+
+.School-Tour video{
+    width: 80%;
+    border: 5px solid #FD5490;
+    border-radius: 10px;
+}
+
+.School-Tour video:hover{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+    cursor: pointer;
+}
+
+
+/* Admission */
+.Admission-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grades{
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}  
+
+.grades .box{
+    margin:0.7%;
+    width: 270px;
+    height: 150px;
+    background: #FD5490;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grades .box .grade{
+     font-size: 24px;
+     font-family: "Changa One", sans-serif;
+}
+
+.grades .box img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.grades .box a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #FD5490;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    display: none;
+}
+
+.box a:hover{
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+}
+
+.grades{
+  .box:hover {
+    .img-icon,
+    .grade,
+    .stage {
+      display: none;
+    }
+  }
+}
+
+.grades{  
+    .box:hover {
+    a {
+      display: block;
+    }
+  }
+}
+.grades .box:hover{
+    background-color: #ffffff;
+    color: #FD5490;
+    box-shadow: 0px 0px 10px rgb(222, 99, 120);
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 1024px){
+    header{
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    
+    #menu-toggle:checked + .menu-icon + nav {
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #FD5490;
+        z-index: 1000;
+    }
+
+    #menu-toggle:checked + .menu-icon + nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + nav ul li a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-box,
+    .right-box{
+        width: 90%;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .right-box{
+        border-radius: 0 0 20px 20px;
+    }
+
+    .left-box img{
+        width: 40%;
+        padding: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+    header {
+        justify-content: space-between;
+    }
+
+    .menu-icon {
+        display: block;
+        z-index: 1001; /* Ensure it's on top */
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #FD5490;
+        z-index: 1000;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+    }
+
+    #menu-toggle:checked + .menu-icon + nav {
+        display: block;
+    }
+    
+    .School-banner img{
+        height: auto;
+    }
+
+    .grades{
+        gap: 10px;
+    }
+
+    .grades .box{
+        width: 40%;
+        height: 120px;
+    }
+    
+    .features{
+        padding-bottom: 2%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features .box{
+        width: 90%;
+    }
+
+    .features .content{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/* Small Mobile */
+@media (max-width: 480px){
+
+    .School-title{
+        font-size: 16px;
+    }
+
+    .grades .box{
+        width: 80%;
+    }
+    
+    .right-box p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .our-features .Teachers{
+        padding: 10px;
+    }
+
+
+    .our-features .Teachers img{
+        width: 280px;
+    }
+
+    .our-features .Teachers h3{
+        font-size: 14px;
+    }
+}
